@@ -1,0 +1,48 @@
+/* Body */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Styling */
+a {
+  color: grey;
+  text-decoration: none;
+  padding: 10px;
+}
+
+html, body {
+  font-family: "gothamSSm";
+  src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Light_Web.woff2)
+    format("woff2");
+  font-weight: "light"; 
+  /* overflow: hidden; */
+  width: 100%;
+} 
+/* 
+@font-face {
+  font-family: "gothamSSm";
+  src: url(https://cdn-design.tesla.com/tds-fonts/3.x/woff2/GothamSSm-Light_Web.woff2)
+    format("woff2");
+  font-weight: "light";
+} */
+/* Models navbar */
+
+/* .logo {
+} */
+
+#home {
+  display: flex;
+}
+
+#models navbar {
+  list-style: none;
+  display: flex;
+  padding: 5px 10px;
+}
+
+.hero {
+  background: url(../../assets/Images/model-3-main-hero-b-desktop.jfif) no-repeat cover center/cover;
+  height: 100vh; 
+}
